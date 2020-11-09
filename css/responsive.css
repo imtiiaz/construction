@@ -1,0 +1,407 @@
+/***********************************************************************************
+ Header start
+***********************************************************************************/
+
+@media (max-width: 991px) {
+
+    .banner_content {
+        padding: 130px 0;
+    }
+    
+    .navbar-nav .nav-item .nav-link {
+    color: #001659;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 0;
+    margin: 0 2px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    text-align: center;
+}
+}
+
+
+
+/***********************************************************************************
+ Banner start
+***********************************************************************************/
+
+/* Normal desktop :1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet desktop :768px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .banner_content {
+        padding: 130px 0;
+    }
+
+}
+
+/* Large Mobile :480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* small mobile :320px */
+
+@media (max-width: 767px) {
+
+    .banner_content {
+        padding: 110px 0;
+    }
+
+    .banner_content h1 {
+        font-size: 56px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+}
+
+
+/***********************************************************************************
+ About start
+***********************************************************************************/
+
+/* Normal desktop :1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet desktop :768px */
+@media (max-width: 991px) {
+
+    .shape {
+        display: none !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .about_img > img {
+        margin-top: 60px;
+    }
+}
+
+/* Large Mobile :480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* small mobile :320px */
+
+@media (max-width: 767px) {}
+
+
+
+/***********************************************************************************
+ Team start
+***********************************************************************************/
+@media (max-width: 1600px) {
+    .construction_team_wrapper .team_overlay {
+        left: 25px;
+        right: 25px;
+        bottom: 75px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .construction_team_wrapper .team_overlay {
+        left: 25px;
+        right: 25px;
+        bottom: 75px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .row.team_row .col-lg-3:nth-child(2n) .construction_team_wrapper:before {
+        display: none;
+    }
+
+    .row.team_row .col-lg-3:nth-last-child(3) .construction_team_wrapper:after,
+    .row.team_row .col-lg-3:nth-last-child(4) .construction_team_wrapper:after {
+        display: block;
+    }
+
+    .row.team_row .col-lg-3:nth-child(2n + 1) .construction_team_wrapper:after {
+        left: 0px;
+    }
+
+    .row.team_row .col-lg-3:nth-last-child(3) .construction_team_wrapper,
+    .row.team_row .col-lg-3:nth-last-child(4) .construction_team_wrapper {
+        padding-bottom: 50px;
+    }
+
+    .row.team_row .col-lg-3:nth-last-child(1) .construction_team_wrapper .team_overlay,
+    .row.team_row .col-lg-3:nth-last-child(2) .construction_team_wrapper .team_overlay {
+        bottom: 25px;
+    }
+}
+
+@media (max-width: 425px) {
+    .row.team_row .col-lg-3:nth-last-child(1) .construction_team_wrapper {
+        padding-bottom: 0;
+    }
+
+    .row.team_row .col-lg-3:nth-last-child(2) .construction_team_wrapper {
+        padding-bottom: 50px;
+    }
+
+    .row.team_row .col-lg-3:nth-last-child(2) .construction_team_wrapper:after {
+        display: block;
+    }
+
+    .row.team_row .col-lg-3:nth-last-child(4) .construction_team_wrapper {
+        padding-bottom: 50px;
+    }
+
+    .row.team_row .col-lg-3:nth-last-child(2) .construction_team_wrapper .team_overlay {
+        bottom: 75px;
+    }
+}
+
+
+/***********************************************************************************
+      Counter start
+    ***********************************************************************************/
+
+
+
+/* Normal desktop :1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px */
+
+@media (max-width:1025px) {
+    .outer-image {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet desktop :768px */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Large Mobile :480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* small mobile :320px */
+
+@media (max-width: 767px) {}
+
+/***********************************************************************************
+      Service start
+    ***********************************************************************************/
+
+
+/* Normal desktop :1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet desktop :768px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .service_content p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Large Mobile :480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* small mobile :320px */
+
+@media (max-width: 767px) {
+    .service-inner:before {
+        display: none;
+    }
+
+    .service-inner .service-thumbnail:before {
+        display: none;
+    }
+
+    .service-inner .service-thumbnail .pro-link i {
+        display: none;
+    }
+
+    .service-inner .service-summary {
+        padding-bottom: 0;
+    }
+
+    .service-inner .service-summary .service-icon-2 {
+        display: none;
+    }
+
+    .service-inner:hover .service-thumbnail img {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .service-inner:hover .service-summary .service-content {
+        padding-right: 0;
+        padding-left: 80px;
+    }
+
+    .service-inner:hover .service-summary .service-icon-1 {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/***********************************************************************************
+      News start
+    ***********************************************************************************/
+
+/* Normal desktop :1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px */
+
+@media (max-width:992px) {
+    .news-section {
+        background: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet desktop :768px */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Large Mobile :480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* small mobile :320px */
+
+@media (max-width: 767px) {}
+
+
+
+/***********************************************************************************
+      CTA start
+    ***********************************************************************************/
+
+/* Normal desktop :1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet desktop :768px */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Large Mobile :480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* small mobile :320px */
+
+@media (max-width: 767px) {
+    
+    #call-to-action {
+        padding: 60px 0 50px 0 !important;
+    }
+
+
+    #call-to-action .coll-to-action-send form input[type="text"] {
+        width: 100%;
+    }
+
+    #call-to-action .newslatter_title h2 {
+        line-height: 45px;
+        font-size: 26px;
+    }
+
+}
+
+
+/***********************************************************************************
+      Clients start
+    ***********************************************************************************/
+
+/* Normal desktop :1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet desktop :768px */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Large Mobile :480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* small mobile :320px */
+
+@media (max-width: 767px) {}
+
+
+/***********************************************************************************
+      Footer start
+***********************************************************************************/
+
+/* Normal desktop :1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet desktop :768px */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Large Mobile :480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* small mobile :320px */
+
+@media (max-width: 767px) {
+    .utf-footer-social{
+        text-align: center !important;
+    }
+    .copyright{
+        text-align: center !important;
+    }
+}
