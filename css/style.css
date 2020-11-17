@@ -14,16 +14,17 @@
 	
     1. Template default css
     2. Header Section
-    3. Slider Section
-    4. Service Section 
-    5. About Section
+    3. Banner Section
+    4. About Section 
+    5. Services Section
     6. Team Section
     7. Counter Section
     8. Service Section 
-    9. News Section
-    10. Client Section
-    11. Footer Section
-    12. Copyright Section
+    8. Testimonial Section 
+    10. News Section
+    11. CTA Section
+    12. Client Section
+    13. Footer Section
     
     
 -----------------------------------------------------------------------------------*/
@@ -127,7 +128,7 @@ p {
 }
 
 /* 2.-------------------------------------------
-                    Header SectionSection
+                    Header Section
 -----------------------------------------------*/
 
 /*
@@ -441,7 +442,7 @@ a.btn:hover {
 
 
 /* 5.-------------------------------------------
-                    Service Section
+                    Services Section
 -----------------------------------------------*/
 .service_item {
     box-shadow: 0px 16px 32px 0px rgba(196, 203, 255, 0.3);
@@ -537,88 +538,9 @@ a.btn:hover {
 }
 
 
-/* 9.-------------------------------------------
-                    Testimonial Section
------------------------------------------------*/
-
-#testimonial_section ul {
-    position: absolute;
-    left: 50%;
-    bottom: -30px;
-    transform: translateX(-50%);
-    display: flex;
-
-}
-
-#testimonial_section ul li button {
-    height: 16px;
-    width: 16px;
-    font-size: 0;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    margin-right: 10px;
-    border-color: #fd5d14;
-    background: transparent;
-}
-
-#testimonial_section ul li.slick-active button {
-    background: #fd5d14;
-}
-
-#testimonial_section ul li button:focus {
-    outline: 0;
-}
-
-.slick-slide img {
-    display: inline-block;
-}
-
-.testimonial_bg {
-    background: url(../images/testimonial/testimonials_bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    z-index: 1;
-}
-
-.testimonial_bg::after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: -1;
-}
-
-.testimonial_thumb img {
-    border-radius: 50%;
-}
-
-.testimonial_content h3 {
-    font-size: 22px;
-    color: #fff;
-    text-transform: capitalize;
-
-}
-
-.testimonial_content p {
-    color: #fff;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-.testimonial_content .more_link:hover {
-    color: #fff;
-
-}
-
 /* 6.-------------------------------------------
                     Team Section
 -----------------------------------------------*/
-
 
 .construction_team_wrapper {
     width: 100%;
@@ -1190,7 +1112,87 @@ a.btn:hover {
     color: #393939;
 }
 
+
 /* 9.-------------------------------------------
+                    Testimonial Section
+-----------------------------------------------*/
+
+#testimonial_section ul {
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+    display: flex;
+
+}
+
+#testimonial_section ul li button {
+    height: 16px;
+    width: 16px;
+    font-size: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    border-color: #fd5d14;
+    background: transparent;
+}
+
+#testimonial_section ul li.slick-active button {
+    background: #fd5d14;
+}
+
+#testimonial_section ul li button:focus {
+    outline: 0;
+}
+
+.slick-slide img {
+    display: inline-block;
+}
+
+.testimonial_bg {
+    background: url(../images/testimonial/testimonials_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial_bg::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.testimonial_thumb img {
+    border-radius: 50%;
+}
+
+.testimonial_content h3 {
+    font-size: 22px;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.testimonial_content p {
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.testimonial_content .more_link:hover {
+    color: #fff;
+}
+
+
+
+/* 10.-------------------------------------------
                     News Section
 -----------------------------------------------*/
 
@@ -1376,6 +1378,11 @@ a.btn:hover {
     background-size: cover;
 }
 
+
+/* 11.-------------------------------------------
+                    CTA Section
+-----------------------------------------------*/
+
 #call-to-action .newslatter_title {
     text-align: center;
     margin: auto;
@@ -1455,7 +1462,7 @@ a.btn:hover {
 }
 
 
-/* 10.-------------------------------------------
+/* 12.-------------------------------------------
                     Client Section
 -----------------------------------------------*/
 
@@ -1469,7 +1476,7 @@ a.btn:hover {
 
 
 
-/* 11.-------------------------------------------
+/* 13.-------------------------------------------
                     Footer Section
 -----------------------------------------------*/
 footer {
@@ -1644,7 +1651,23 @@ footer p {
 
 
 .news_heading {
-    background: #001659;
+    background: url(../images/team/team-header.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.news_heading:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 15, 40, 0.70);
+    z-index: -1;
 }
 
 
