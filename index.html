@@ -23,13 +23,18 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-
 </head>
 
 <body>
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
+
+    <!-- Pre Loader -->
+    <div id="loader">
+        <img src="images/preloader.gif" alt="loader">
+    </div>
+    <!-- Pre Loader Ends -->
 
     <!--==============Header Section Start============-->
 
@@ -66,7 +71,9 @@
         <div class="main_menu">
             <nav class="navbar navbar-expand-lg py-0">
                 <div class="container p-0">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/banner/logo.png" alt="not found">
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
                     </button>
@@ -83,9 +90,6 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="team.html">team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="testimonial.html">testimonials</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="blog.html">blog</a>
@@ -106,43 +110,37 @@
     <!--=================Banner Section Start===============-->
 
     <section id="banner_section">
-        <div class="banner_slider owl-carousel">
+        <div class="banner_slider">
             <div class="banner_img" style="background:url(images/banner/banner-1.jpg)">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="banner_content text-center">
-                                <h1>we are providing best <span class="orange_color">construction</span> services</h1>
-                                <p>We are the largest construction company in the world</p>
-                                <div class="button">
-                                    <a href="#" class="btn mr-10">
-                                        learn more
-                                    </a>
-                                    <a href="#" class="btn active mr-10">
-                                        view projects
-                                    </a>
+                            <div class="owl-carousel">
+                                <div class="banner_content text-center">
+                                    <h1>we are providing best <span class="orange_color">construction</span> services</h1>
+                                    <p>We are the largest construction company in the world</p>
+                                    <div class="button">
+                                        <a href="#" class="btn mr-10">
+                                            learn more
+                                        </a>
+                                        <a href="#" class="btn active mr-10">
+                                            view projects
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="banner_img" style="background:url(images/banner/banner-1.jpg)">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="banner_content text-center">
-                                <h1>We are the Leader in
-                                    <span class="orange_color">Construction</span> Industry
-                                </h1>
-                                <p>We will deal with your failure that determines how you achieve success.</p>
-                                <div class="button">
-                                    <a href="#" class="btn mr-10">
-                                        learn more
-                                    </a>
-                                    <a href="#" class="btn active mr-10">
-                                        view projects
-                                    </a>
+                                <div class="banner_content text-center">
+                                    <h1>We are the Leader in
+                                        <span class="orange_color">Construction</span> Industry
+                                    </h1>
+                                    <p>We will deal with your failure that determines how you achieve success.</p>
+                                    <div class="button">
+                                        <a href="#" class="btn mr-10">
+                                            learn more
+                                        </a>
+                                        <a href="#" class="btn active mr-10">
+                                            view projects
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -172,9 +170,10 @@
                         <div class="section_title">
                             <h4 class="sub_title">about us</h4>
                             <h2>some words about construction<span>.</span></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel omnis assumenda vero excepturi minus commodi enim error dolorum modi ducimus.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel omnis assumenda vero
+                                excepturi minus commodi enim error dolorum modi ducimus.</p>
                         </div>
-                        <!-------------accordion--------------->
+                        <!-- accordion -->
                         <div id="accordion">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
@@ -186,7 +185,8 @@
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                     <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor.
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor.
                                     </div>
                                 </div>
                             </div>
@@ -200,7 +200,8 @@
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                     <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat.
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat.
                                     </div>
                                 </div>
                             </div>
@@ -214,7 +215,9 @@
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                     <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch.
                                     </div>
                                 </div>
                             </div>
@@ -242,6 +245,12 @@
                 </div>
             </div>
             <div class="row">
+                <div class="about_shape">
+                    <img src="images/about/hook.png" alt="Not found">
+                </div>
+                <div class="about_shape_two">
+                    <img src="images/about/hook_two.png" alt="Not found">
+                </div>
                 <div class="col-md-6">
                     <div class="service_item pt-40 pb-40 pl-50 pr-50 mt-40 text-center">
                         <div class="service_thumb pb-40">
@@ -297,7 +306,6 @@
             </div>
         </div>
     </section>
-
 
     <!--=================Services Section End===============-->
 
@@ -401,9 +409,9 @@
         </div>
     </section>
 
-    <!--==============================Team Section End========================-->
+    <!--================Team Section End========================-->
 
-    <!--================================Counter Section Start=====================-->
+    <!--==========================Counter Section Start=====================-->
 
     <section id="counter_section">
         <div class="fact-counter-section" style="background-image:url(images/counter/2.jpg);">
@@ -458,7 +466,8 @@
         </div>
 
     </section>
-    <!--==============================Counter Section End=========================-->
+
+    <!--=========================Counter Section End=========================-->
 
     <!--=============================Service Section Start=======================-->
 
@@ -611,8 +620,9 @@
                                 <img src="images/testimonial/client.jpg" class="img-fluid" alt="not_found">
                             </div>
                             <div class="testimonial_content">
-                                <h3>shiplu ambani</h3>
-                                <P>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                <h3>john doe</h3>
+                                <P>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad
                                     squid.</P>
                                 <a href="#" class="more_link">read more</a>
                             </div>
@@ -621,11 +631,12 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="testimonial_item pt-50 text-center">
                             <div class="testimonial_thumb pb-20">
-                                <img src="images/testimonial/client.jpg" class="img-fluid" alt="not_found">
+                                <img src="images/testimonial/client1.jpg" class="img-fluid" alt="not_found">
                             </div>
                             <div class="testimonial_content">
-                                <h3>shiplu ambani</h3>
-                                <P>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                <h3>farah naz</h3>
+                                <P>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad
                                     squid.</P>
                                 <a href="#" class="more_link">read more</a>
                             </div>
@@ -634,11 +645,12 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="testimonial_item pt-50 text-center">
                             <div class="testimonial_thumb pb-20">
-                                <img src="images/testimonial/client.jpg" class="img-fluid" alt="not_found">
+                                <img src="images/testimonial/client2.jpg" class="img-fluid" alt="not_found">
                             </div>
                             <div class="testimonial_content">
-                                <h3>shiplu ambani</h3>
-                                <P>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                <h3>robert brown</h3>
+                                <P>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad
                                     squid.</P>
                                 <a href="#" class="more_link">read more</a>
                             </div>
@@ -651,7 +663,7 @@
 
     <!--=========================Testimonial Section End==========================-->
 
-    <!--=================News Section Start=======================-->
+    <!--==============================News Section Start=======================-->
 
     <section id="news" class="news-section news-section-home pt-100 pb-100">
         <div class="container">
@@ -663,93 +675,90 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="news-box">
-                    <div class="row justify-content-center">
-                        <div class="col-md-6 col-lg-4 col-">
-                            <article>
-                                <div class="news-post pt-50">
-                                    <div class="img-cap-effect">
-                                        <div class="img-box">
-                                            <img src="images/news/ser1.jpg" class="img-fluid w-100" alt="not found">
-                                            <div class="img-caption">
-                                                <div class="box-holder"></div>
-                                            </div>
+            <div class="news-box">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-">
+                        <article>
+                            <div class="news-post pt-50">
+                                <div class="img-cap-effect">
+                                    <div class="img-box">
+                                        <img src="images/news/ser1.jpg" class="img-fluid w-100" alt="not found">
+                                        <div class="img-caption">
+                                            <div class="box-holder"></div>
                                         </div>
                                     </div>
-                                    <div class="post-content-text">
-                                        <ul class="blog_infos nav">
-                                            <li><a href="#"><i class="fa fa-calendar"></i>19 Nov, 2020</a></li>
-                                            <li><a href="#"><i class="fa fa-comment"></i>(3) comments</a></li>
-                                        </ul>
-                                        <h2><a href="single-post.html">News Title Here</a></h2>
-
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                            eu fugiat nulla pariatur.</p>
-                                        <a class="btn readmore" href="single-post.html">read more</a>
-                                    </div>
                                 </div>
-                            </article>
+                                <div class="post-content-text">
+                                    <ul class="blog_infos nav">
+                                        <li><a href="#"><i class="fa fa-calendar"></i>19 Nov, 2020</a></li>
+                                        <li><a href="#"><i class="fa fa-comment"></i>(3) comments</a></li>
+                                    </ul>
+                                    <h2><a href="single-post.html">Future in constructions</a></h2>
 
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-">
-                            <article>
-                                <div class="news-post pt-50">
-                                    <div class="img-cap-effect">
-                                        <div class="img-box">
-                                            <img src="images/news/ser2.jpg" class="img-fluid w-100" alt="not found">
-                                            <div class="img-caption">
-                                                <div class="box-holder"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="post-content-text">
-                                        <ul class="blog_infos nav">
-                                            <li><a href="#"><i class="fa fa-calendar"></i>19 Nov, 2020</a></li>
-                                            <li><a href="#"><i class="fa fa-comment"></i>(3) comments</a></li>
-                                        </ul>
-                                        <h2><a href="single-post.html">News Title Here</a></h2>
-
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                            eu fugiat nulla pariatur.</p>
-                                        <a class="btn readmore" href="single-post.html">read more</a>
-                                    </div>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                        eu fugiat nulla pariatur.</p>
+                                    <a class="btn readmore" href="single-post.html">read more</a>
                                 </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-">
-                            <article>
-                                <div class="news-post pt-50">
-                                    <div class="img-cap-effect">
-                                        <div class="img-box">
-                                            <img src="images/news/ser3.jpg" class="img-fluid w-100" alt="not found">
-                                            <div class="img-caption">
-                                                <div class="box-holder"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="post-content-text">
-                                        <ul class="blog_infos nav">
-                                            <li><a href="#"><i class="fa fa-calendar"></i>19 Nov, 2020</a></li>
-                                            <li><a href="#"><i class="fa fa-comment"></i>(3) comments</a></li>
-                                        </ul>
-                                        <h2><a href="single-post.html">News Title Here</a></h2>
-
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                            eu fugiat nulla pariatur.</p>
-                                        <a class="btn readmore" href="single-post.html">read more</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
+                            </div>
+                        </article>
 
                     </div>
-                </div>
+                    <div class="col-md-6 col-lg-4 col-">
+                        <article>
+                            <div class="news-post pt-50">
+                                <div class="img-cap-effect">
+                                    <div class="img-box">
+                                        <img src="images/news/ser2.jpg" class="img-fluid w-100" alt="not found">
+                                        <div class="img-caption">
+                                            <div class="box-holder"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-content-text">
+                                    <ul class="blog_infos nav">
+                                        <li><a href="#"><i class="fa fa-calendar"></i>19 Nov, 2020</a></li>
+                                        <li><a href="#"><i class="fa fa-comment"></i>(3) comments</a></li>
+                                    </ul>
+                                    <h2><a href="single-post.html">23,000 Active projects</a></h2>
 
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                        eu fugiat nulla pariatur.</p>
+                                    <a class="btn readmore" href="single-post.html">read more</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-">
+                        <article>
+                            <div class="news-post pt-50">
+                                <div class="img-cap-effect">
+                                    <div class="img-box">
+                                        <img src="images/news/ser3.jpg" class="img-fluid w-100" alt="not found">
+                                        <div class="img-caption">
+                                            <div class="box-holder"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-content-text">
+                                    <ul class="blog_infos nav">
+                                        <li><a href="#"><i class="fa fa-calendar"></i>19 Nov, 2020</a></li>
+                                        <li><a href="#"><i class="fa fa-comment"></i>(3) comments</a></li>
+                                    </ul>
+                                    <h2><a href="single-post.html">Rising costs in constructions</a></h2>
+
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                        eu fugiat nulla pariatur.</p>
+                                    <a class="btn readmore" href="single-post.html">read more</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
             </div>
+        </div>
     </section>
 
-    <!--=================News Section End==========================-->
+    <!--============================News Section End==========================-->
 
     <!--=================CTA Section Start==========================-->
 
@@ -836,8 +845,8 @@
                 <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12 utf-footer-social text-right">
                     <ul>
                         <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
                         <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -860,6 +869,7 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/appear.js"></script>
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
