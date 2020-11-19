@@ -2,6 +2,13 @@ $(function () {
 
     "use strict";
 
+    // Pre Loader 
+    var loader = document.getElementById("loader");
+    window.addEventListener("load", function () {
+
+        loader.style.visibility = "hidden";
+
+    });
 
     // Menufix
 
@@ -47,40 +54,20 @@ $(function () {
             }
         });
 
-    //   Banner slider
-
-    //    $('.banner_slider').owlCarousel({
-    //        loop: true,
-    //        nav: false,
-    //        autoPlay: true,
-    //        slideSpeed: 200,
-    //        items: 1,
-    //        responsiveClass: true,
-    //        responsive: {
-    //            1000: {
-    //                
-    //
-    //            }
-    //        }
-    //    })
+    // Banner Slider
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 1500,
+        autoplaySpeed:800,
+        autoplayHoverPause: true,
+        nav: false,
+    })
 
 
-    $('.banner_slider').slick({
-        dots: false,
-        infinite: true,
-        autoplay: false,
-        arrows: false,
-        autoplaySpeed: 1000,
-        speed: 1300,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: '<i class="fas fa-chevron-left"></i>',
-        nextArrow: '<i class="fas fa-chevron-right"></i>',
-
-    }); 
-    
     // Testimonial Slider
-    
+
     $('.testimonial_slider').slick({
         dots: true,
         infinite: true,
